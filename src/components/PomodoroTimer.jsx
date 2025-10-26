@@ -62,13 +62,13 @@ export const PomodoroTimer = () => {
       <div className="flex justify-center gap-4">
         <button
           onClick={toggleTimer}
-          className="px-6 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors"
+          className="px-6 py-2 bg-blue-500 text-black rounded hover:bg-blue-600 transition-colors"
         >
           {isActive ? 'Pause' : 'Start'}
         </button>
         <button
           onClick={resetTimer}
-          className="px-6 py-2 bg-gray-500 text-white rounded hover:bg-gray-600 transition-colors"
+          className="px-6 py-2 bg-gray-500 text-black rounded hover:bg-gray-600 transition-colors"
         >
           Reset
         </button>
